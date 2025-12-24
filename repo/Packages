@@ -1,1 +1,11 @@
-
+Package: com.name.label
+Name: name
+Version: version
+Architecture: iphoneos-arm
+Description: description
+Maintainer: FrankoTheFranko
+Author: FrankoTheFranko
+Section: Tweaks
+Filename: debs/placeholder
+Size: size in bytes
+MD5sum: MD5sum from deb file
