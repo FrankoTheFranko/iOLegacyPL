@@ -27,4 +27,4 @@ Aby zainstalować tweaki i aplikacje z tego źródła, wykonaj poniższe kroki n
 3. Wybierz **Edit** (Edytuj) w prawym górnym rogu, a następnie **Add** (Dodaj).
 4. Wpisz następujący adres URL:
    ```text
-   [https://FrankoTheFranko.github.io/repo](https://FrankoTheFranko.github.io/repo)
+   https://FrankoTheFranko.github.io/repo
