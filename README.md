@@ -15,7 +15,7 @@
 1. Open **Cydia**.
 2. Go to **Sources** -> **Edit** -> **Add**.
 3. Enter the URL: 
-   `https://realmephone9imodel-collab.github.io/iOLegacyRepo/repo/`
+   `https://FrankoTheFranko.github.io/repo`
 
 > [!IMPORTANT]
 > If you have SSL/HTTPS errors, install certificates from: `http://cydia.invoxiplaygames.uk/certificates/`
@@ -30,7 +30,7 @@
 1. Otwórz **Cydię**.
 2. Wejdź w **Źródła** -> **Edytuj** -> **Dodaj**.
 3. Wpisz adres: 
-   `https://realmephone9imodel-collab.github.io/iOLegacyRepo/repo/`
+   `https://FrankoTheFranko.github.io/repo`
 
 > [!IMPORTANT]
 > Jeśli masz błędy SSL/HTTPS, zainstaluj certyfikaty z: `http://cydia.invoxiplaygames.uk/certificates/`
