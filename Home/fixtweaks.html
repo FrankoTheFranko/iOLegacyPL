@@ -5,23 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FixTweaks | iOLegacyPL</title>
     <style>
+        /* Styl identyczny jak w index i jailbreak */
         :root { --ios-blue: #0A84FF; --bg-color: #000000; --card-bg: #1C1C1E; --border-color: #38383A; --text-main: #FFFFFF; --text-sub: #8E8E93; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: var(--bg-color); margin: 0; display: flex; flex-direction: column; align-items: center; color: var(--text-main); }
         header { width: 100%; background-color: var(--card-bg); padding: 12px 0; text-align: center; border-bottom: 1px solid var(--border-color); position: sticky; top: 0; z-index: 1000; }
-        nav { display: flex; justify-content: center; gap: 6px; flex-wrap: wrap; }
-        .nav-btn { background-color: var(--ios-blue); color: white; text-decoration: none; padding: 8px 12px; border-radius: 8px; font-size: 13px; font-weight: 500; }
-        .container { width: 95%; max-width: 500px; padding: 40px 0; }
-        h1 { font-size: 32px; text-align: center; margin-bottom: 10px; }
+        nav { display: flex; justify-content: center; gap: 8px; }
+        .nav-btn { background-color: var(--ios-blue); color: white; text-decoration: none; padding: 8px 14px; border-radius: 8px; font-size: 13px; font-weight: 500; }
+        .hero { width: 100%; padding: 80px 0 50px; text-align: center; background: linear-gradient(180deg, #1C1C1E 0%, #000000 100%); }
+        .hero-title { font-size: 58px; font-weight: 800; margin: 0; letter-spacing: -2px; }
+        .subtitle { color: var(--ios-blue); font-size: 20px; font-weight: 500; margin-top: 5px; }
+        .container { width: 95%; max-width: 500px; padding-bottom: 60px; }
         .section-title { font-size: 13px; color: var(--text-sub); text-transform: uppercase; margin: 30px 0 8px 15px; }
         .menu-list { background: var(--card-bg); border-radius: 12px; overflow: hidden; border: 1px solid var(--border-color); }
         .menu-item { display: flex; flex-direction: column; padding: 15px 16px; border-bottom: 1px solid var(--border-color); }
         .menu-item:last-child { border-bottom: none; }
         .tweak-name { font-size: 17px; font-weight: 600; color: var(--ios-blue); }
         .tweak-desc { font-size: 13px; color: var(--text-sub); margin-top: 4px; }
-        .footer { font-size: 12px; color: #48484A; text-align: center; margin-top: 50px; padding-bottom: 30px; }
+        .footer { font-size: 12px; color: #48484A; text-align: center; padding: 40px 0; }
     </style>
 </head>
 <body>
+
     <header>
         <nav>
             <a href="index.html" class="nav-btn">Home</a>
@@ -31,35 +35,36 @@
         </nav>
     </header>
 
-    <div class="container">
-        <h1>FixTweaks</h1>
-        <p style="text-align: center; color: var(--text-sub);">Niezbędne poprawki dla iOS Legacy.</p>
+    <div class="hero">
+        <h1 class="hero-title">FixTweaks</h1>
+        <p class="subtitle">Kolekcja Poprawek</p>
+    </div>
 
-        <div class="section-title">Internet i Sklep</div>
+    <div class="container">
+        <div class="section-title">System & App Store</div>
         <div class="menu-list">
             <div class="menu-item">
                 <span class="tweak-name">SSL Certificate Fix</span>
-                <span class="tweak-desc">Naprawia błędy połączenia "Nie można nawiązać bezpiecznego połączenia" w Safari.</span>
+                <span class="tweak-desc">Rozwiązuje problemy z certyfikatami w Safari na starych wersjach iOS.</span>
             </div>
             <div class="menu-item">
-                <span class="tweak-name">App Store Fix (v1.2)</span>
-                <span class="tweak-desc">Przywraca logowanie i pobieranie aplikacji na iOS 6 i 7.</span>
+                <span class="tweak-name">App Store Fix</span>
+                <span class="tweak-desc">Przywraca działanie logowania i pobierania aplikacji.</span>
             </div>
         </div>
 
         <div class="section-title">Multimedia</div>
         <div class="menu-list">
             <div class="menu-item">
-                <span class="tweak-name">YouTube Legacy Fix</span>
-                <span class="tweak-desc">Naprawia błąd "Error loading, tap to retry" w starej aplikacji YT.</span>
-            </div>
-            <div class="menu-item">
-                <span class="tweak-name">Weather Fix</span>
-                <span class="tweak-desc">Przywraca działanie systemowej aplikacji Pogoda.</span>
+                <span class="tweak-name">YouTube Fixer</span>
+                <span class="tweak-desc">Poprawka API dla klasycznej aplikacji YouTube.</span>
             </div>
         </div>
     </div>
 
-    <div class="footer">2025 &copy; iOLegacyPL by FrankoTheFranko</div>
+    <div class="footer">
+        2025 &copy; iOLegacyPL &bull; FrankoTheFranko
+    </div>
+
 </body>
 </html>
