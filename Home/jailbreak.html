@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jailbreak | iOLegacyPL</title>
+    <title>Jailbreak iOS 6 | iOLegacyPL</title>
     <style>
         :root {
             --ios-blue: #0A84FF;
@@ -13,7 +13,9 @@
             --text-main: #FFFFFF;
             --text-sub: #8E8E93;
         }
+
         html { scroll-behavior: smooth; }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg-color);
@@ -23,6 +25,8 @@
             align-items: center;
             color: var(--text-main);
         }
+
+        /* Menu Górne */
         header {
             width: 100%;
             background-color: var(--card-bg);
@@ -33,7 +37,9 @@
             top: 0;
             z-index: 1000;
         }
+
         nav { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; }
+
         .nav-btn {
             background-color: var(--ios-blue);
             color: white;
@@ -43,36 +49,45 @@
             font-size: 13px;
             font-weight: 500;
         }
+
+        /* Hero Section */
         .hero {
             width: 100%;
             padding: 80px 0 50px;
             text-align: center;
             background: linear-gradient(180deg, #1C1C1E 0%, #000000 100%);
         }
+
         .hero-title {
             font-size: 58px;
             font-weight: 800;
             margin: 0;
             letter-spacing: -2px;
         }
+
         .subtitle { color: var(--ios-blue); font-size: 20px; font-weight: 500; margin-top: 5px; }
+
         .container {
             width: 95%;
             max-width: 500px;
             padding-bottom: 60px;
         }
+
+        /* Styl listy menu iOS */
         .section-title {
             font-size: 13px;
             color: var(--text-sub);
             text-transform: uppercase;
             margin: 30px 0 8px 15px;
         }
+
         .menu-list {
             background: var(--card-bg);
             border-radius: 12px;
             overflow: hidden;
             border: 1px solid var(--border-color);
         }
+
         .menu-item {
             display: flex;
             align-items: center;
@@ -81,14 +96,28 @@
             color: var(--text-main);
             border-bottom: 1px solid var(--border-color);
         }
+
         .menu-item:last-child { border-bottom: none; }
+        .menu-item:active { background-color: #2C2C2E; }
+
         .label { flex-grow: 1; font-size: 17px; }
-        .version-badge { color: var(--ios-blue); font-weight: 600; font-size: 14px; }
+        .version-badge { color: var(--ios-blue); font-weight: 600; font-size: 14px; margin-right: 10px; }
+        .arrow { color: #48484A; font-weight: bold; }
+
+        .back-to-top {
+            display: inline-block;
+            margin: 50px 0;
+            color: var(--ios-blue);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
         .footer {
             font-size: 12px;
             color: #48484A;
             text-align: center;
-            padding: 40px 0;
+            padding-bottom: 50px;
         }
     </style>
 </head>
@@ -105,40 +134,51 @@
 
     <div class="hero">
         <h1 class="hero-title">Jailbreak</h1>
-        <p class="subtitle">Narzędzia All-In-One</p>
+        <p class="subtitle">iOS 6.x Legacy Tools</p>
     </div>
 
     <div class="container">
-        <div class="section-title">Wybierz wersję iOS</div>
+        
+        <div class="section-title">Untethered (iOS 6.1.3 - 6.1.6)</div>
         <div class="menu-list">
-            <div class="menu-item">
+            <a href="https://p0sixspwn.com/" target="_blank" class="menu-item">
                 <span class="label">p0sixspwn</span>
-                <span class="version-badge">iOS 6.1.x</span>
-            </div>
-            <div class="menu-item">
-                <span class="label">evasi0n7</span>
-                <span class="version-badge">iOS 7.0.x</span>
-            </div>
-            <div class="menu-item">
-                <span class="label">Pangu</span>
-                <span class="version-badge">iOS 7.1.x</span>
-            </div>
-            <div class="menu-item">
-                <span class="label">Phoenix</span>
-                <span class="version-badge">iOS 9.3.5</span>
-            </div>
+                <span class="version-badge">6.1.3-6.1.6</span>
+                <span class="arrow">›</span>
+            </a>
         </div>
 
-        <div class="section-title">Wsparcie</div>
+        <div class="section-title">Untethered (iOS 6.0 - 6.1.2)</div>
         <div class="menu-list">
-            <a href="https://github.com/FrankoTheFranko" class="menu-item">
-                <span class="label">Pomoc techniczna GitHub</span>
+            <a href="https://evasi0n.com/" target="_blank" class="menu-item">
+                <span class="label">evasi0n</span>
+                <span class="version-badge">6.0-6.1.2</span>
+                <span class="arrow">›</span>
             </a>
+        </div>
+
+        <div class="section-title">Tethered / Old Bootrom</div>
+        <div class="menu-list">
+            <a href="https://blog.iphone-dev.org/" target="_blank" class="menu-item">
+                <span class="label">redsn0w</span>
+                <span class="version-badge">A4 Devices</span>
+                <span class="arrow">›</span>
+            </a>
+            <a href="https://sn0wbreeze.org/" target="_blank" class="menu-item">
+                <span class="label">sn0wbreeze</span>
+                <span class="version-badge">Windows</span>
+                <span class="arrow">›</span>
+            </a>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="#top" class="back-to-top">↑ Wróć na górę</a>
         </div>
     </div>
 
     <div class="footer">
-        2025 &copy; iOLegacyPL &bull; FrankoTheFranko
+        Hub by <b>FrankoTheFranko</b><br>
+        2025 &copy; iOLegacyPL
     </div>
 
 </body>
