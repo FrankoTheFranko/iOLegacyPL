@@ -1,11 +1,76 @@
-Package: com.name.label
-Name: name
-Version: version
+Package: uk.invoxiplaygames.checkmatestore
+Name: Checkmate, store!
+Version: 1.2
 Architecture: iphoneos-arm
-Description: description
-Maintainer: FrankoTheFranko
-Author: FrankoTheFranko
+Depends: mobilesubstrate, firmware (>= 2.0)
+Description: Dodawanie mozliwosci w App Store! Disable capability limits in the App Store!
+Maintainer: InvoxiPlayGames
+Author: InvoxiPlayGames
 Section: Tweaks
-Filename: debs/placeholder
-Size: size in bytes
-MD5sum: MD5sum from deb file
+Filename: debs/checkmatestore.deb
+Size: 5200
+MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
+
+Package: bag.xml.tuberepair
+Name: TubeRepair [Beta]
+Version: 1.2-Beta-1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader
+Description: TubeRepair to tweak który umożliwia ponowne korzystanie z starej aplikacji YouTube! TubeRepair is a tweak that allows you to use your old YouTube app again!
+Maintainer: Savefade
+Author: bag.xml, Requis
+Section: Tweaks
+Filename: debs/tuberepair.deb
+Size: 101918
+MD5sum: 0a0b6a1a538c9aa369ef905fc6d1eb68
+
+Package: com.aoi.storefix
+Name: AppStore Fix
+Version: 1.0-7
+Architecture: iphoneos-arm
+Description: Tweak ktory naprawia polaczenie do appstore w ios 6 i wczesniej. Tweak that fixes the connection to the appstore in ios 6 and earlier.
+Depends: firmware (<= 6.1.6) ,net.nekokawa.appstorefix ,uk.invoxiplaygames.checkmatestore ,com.innoying.sbutils
+Depiction: http://aoiblog.jp/appstorefix_history2.html
+Maintainer: aoi_satou
+Author: aoi_satou
+Section: System
+Filename: debs/appstorefix.deb
+Size: 1512
+MD5sum: c3182d4dc9df2c63fe4ec44c6a9949b5
+
+Package: net.nekokawa.appstorefix
+Name: StoreSSLFix
+Version: 0.3.5-4+debug
+Architecture: iphoneos-arm
+Description: Naprawa polaczenia AppStore SSL (Tylko iOS 6). Fix AppStore SSL Connection (iOS 6 Only).
+Maintainer: nekokawa
+Author: nekokawa
+Section: Tweaks
+Filename: debs/sslpatch.deb
+Size: 22434
+MD5sum: 435aade5d4f33a26ae32ef1af8310090
+
+Package: dev.preloading.ebayx2
+Name: Ebayx2
+Version: 1.0.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate (>= 0.9.5000)
+Description: Ebay 1.7.2
+Maintainer: Preloading
+Author: Preloading
+Section: Tweaks
+Filename: debs/ebayx.deb
+Size: 1195246
+MD5sum: c9b0f2e77d060e539149f3b911b8c968
+
+Package: dev.preloading.retranslate
+Name: name
+Version: 1.1.0
+Architecture: iphoneos-arm
+Description: Revive Google Translate
+Maintainer: Preloading
+Author: Preloading
+Section: Tweaks
+Filename: debs/retranslate.deb
+Size: 18432
+MD5sum: 3351e159ad5f0b491818bfbf457e5d13
