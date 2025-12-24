@@ -64,7 +64,7 @@ Size: 1195246
 MD5sum: c9b0f2e77d060e539149f3b911b8c968
 
 Package: dev.preloading.retranslate
-Name: name
+Name: Retranslate
 Version: 1.1.0
 Architecture: iphoneos-arm
 Description: Revive Google Translate
