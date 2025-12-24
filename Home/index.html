@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iOLegacyRepo | FrankoTheFranko</title>
+    <title>iOLegacyPL | All-In-One Repo</title>
     <style>
         :root {
             --ios-blue: #0A84FF;
@@ -26,7 +26,7 @@
             color: var(--text-main);
         }
 
-        /* Pasek nawigacji */
+        /* Menu Górne */
         header {
             width: 100%;
             background-color: var(--card-bg);
@@ -50,27 +50,27 @@
             font-weight: 500;
         }
 
-        /* Hero Section */
+        /* Hero Section - DUŻY NAPIS */
         .hero {
             width: 100%;
-            padding: 70px 0 40px;
+            padding: 80px 0 50px;
             text-align: center;
             background: linear-gradient(180deg, #1C1C1E 0%, #000000 100%);
         }
 
         .hero-title {
-            font-size: 54px;
+            font-size: 58px;
             font-weight: 800;
             margin: 0;
             letter-spacing: -2px;
         }
 
-        .subtitle { color: var(--ios-blue); font-size: 18px; font-weight: 500; margin-top: 5px; }
+        .subtitle { color: var(--ios-blue); font-size: 20px; font-weight: 500; margin-top: 5px; }
 
         .container {
-            width: 90%;
+            width: 95%;
             max-width: 500px;
-            padding-bottom: 50px;
+            padding-bottom: 60px;
         }
 
         /* Przycisk Cydia */
@@ -84,15 +84,15 @@
             text-decoration: none;
             font-weight: 700;
             margin: 20px 0;
-            font-size: 17px;
+            font-size: 18px;
         }
 
-        /* Styl listy menu */
+        /* Styl listy menu iOS */
         .section-title {
             font-size: 13px;
             color: var(--text-sub);
             text-transform: uppercase;
-            margin: 25px 0 8px 15px;
+            margin: 30px 0 8px 15px;
         }
 
         .menu-list {
@@ -105,7 +105,7 @@
         .menu-item {
             display: flex;
             align-items: center;
-            padding: 14px 16px;
+            padding: 15px 16px;
             text-decoration: none;
             color: var(--text-main);
             border-bottom: 1px solid var(--border-color);
@@ -117,7 +117,7 @@
         .label { flex-grow: 1; font-size: 17px; }
         .arrow { color: #48484A; font-weight: bold; }
 
-        /* Dodatkowe sekcje dla długości strony */
+        /* Sekcje info dla długości strony */
         .info-block {
             background: var(--card-bg);
             border-radius: 12px;
@@ -131,18 +131,18 @@
 
         .back-to-top {
             display: inline-block;
-            margin: 40px 0;
+            margin: 50px 0;
             color: var(--ios-blue);
             text-decoration: none;
             font-weight: 600;
-            font-size: 14px;
+            font-size: 15px;
         }
 
         .footer {
             font-size: 12px;
             color: #48484A;
             text-align: center;
-            padding-bottom: 40px;
+            padding-bottom: 50px;
         }
     </style>
 </head>
@@ -158,46 +158,52 @@
     </header>
 
     <div class="hero">
-        <h1 class="hero-title">iOLegacyRepo</h1>
-        <p class="subtitle">by FrankoTheFranko &bull; 2025</p>
+        <h1 class="hero-title">iOLegacyPL</h1>
+        <p class="subtitle">Ultimate All-In-One Repo &bull; 2025</p>
     </div>
 
     <div class="container">
-        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://legacyiopl.github.io/repo/" class="btn-add">Add to Cydia</a>
+        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://frankothefranko.github.io/iOLegacyPL/repo" class="btn-add">Add to Cydia</a>
 
-        <div class="section-title">Narzędzia</div>
+        <div class="section-title">Kategorie All-In-One</div>
         <div class="menu-list">
             <a href="fixtweaks.html" class="menu-item">
                 <span class="icon">🛠</span>
-                <span class="label">FixTweaks</span>
+                <span class="label">FixTweaks Collection</span>
                 <span class="arrow">›</span>
             </a>
             <a href="jailbreak.html" class="menu-item">
                 <span class="icon">🔓</span>
-                <span class="label">Jailbreak Tools</span>
+                <span class="label">Jailbreak Tools Info</span>
+                <span class="arrow">›</span>
+            </a>
+            <a href="repo.html" class="menu-item">
+                <span class="icon">📦</span>
+                <span class="label">Browse All Packages</span>
                 <span class="arrow">›</span>
             </a>
         </div>
 
-        <div class="section-title">Informacje</div>
+        <div class="section-title">O iOLegacyPL</div>
         <div class="info-block">
-            <b>LegacyiOPL</b> to projekt rozwijany przez FrankoTheFranko. Naszą misją w 2025 roku jest utrzymanie przy życiu klasycznych wersji iOS (6.x - 9.x) oraz dostarczanie nowoczesnych rozwiązań dla nowszych systemów.
+            <b>iOLegacyPL</b> to kompletne repozytorium typu <b>All-In-One</b> prowadzone przez FrankoTheFranko. Zamiast szukać plików w wielu miejscach, znajdziesz tutaj zebrane i sprawdzone poprawki (fixes), narzędzia do jailbreaku oraz paczki niezbędne dla urządzeń iOS Legacy.
         </div>
 
-        <div class="section-title">Status Usług</div>
+        <div class="section-title">Dlaczego iOLegacyPL?</div>
+        <div class="info-block">
+            Naszym celem nie jest tworzenie nowych tweaków, ale dostarczanie gotowej biblioteki (hub-a), która pozwala na szybką konfigurację urządzenia zaraz po jailbreaku. Wszystko w jednym miejscu, zoptymalizowane pod rok 2025.
+        </div>
+
+        <div class="section-title">Status Projektu</div>
         <div class="menu-list">
             <div class="menu-item">
-                <span class="icon">🟢</span>
-                <span class="label">Repo Server: Online</span>
+                <span class="icon">📦</span>
+                <span class="label">Status: Active Library</span>
             </div>
             <div class="menu-item">
                 <span class="icon">📅</span>
-                <span class="label">Ostatnia aktualizacja: 2025</span>
+                <span class="label">Year: 2025</span>
             </div>
-        </div>
-
-        <div class="info-block">
-            Wszystkie tweeki znajdujące się w tym repozytorium są darmowe i tworzone z pasji do starszych urządzeń Apple.
         </div>
 
         <div style="text-align: center;">
@@ -206,8 +212,8 @@
     </div>
 
     <div class="footer">
-        Created for the iOS Legacy community by <b>FrankoTheFranko</b><br>
-        2025 &copy; iOLegacyRepo
+        Hub created by <b>FrankoTheFranko</b> for the Legacy Community<br>
+        2025 &copy; iOLegacyPL
     </div>
 
 </body>
